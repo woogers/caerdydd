@@ -1,23 +1,27 @@
 var markersDB={
-  "Parkd1fc_8d3b": {
-    "created": false,
-    "raw": [],
-    "name": "Park"
-  },
-  "National_Rail_Stationsdd30_8d3b": {
+  "Points_of_Interestde41_6d56": {
     "created": false,
     "raw": [
       {
-        "x": -329,
+        "x": -873,
         "y": 64,
-        "z": 10,
-        "text": "<img src=\"https://i.imgur.com/SJHNZSK.png\" width=\"300\"><br \\>Hill Street Station is under construction.",
-        "hovertext": "Hill Street Station"
+        "z": 33,
+        "icon": "icons/obelisk.png",
+        "text": "Witch Hut",
+        "hovertext": "Witch Hut"
+      },
+      {
+        "x": -1855,
+        "y": 64,
+        "z": -700,
+        "icon": "icons/obelisk.png",
+        "text": "Temple?",
+        "hovertext": "Temple?"
       }
     ],
-    "name": "National Rail Stations"
+    "name": "Points of Interest"
   },
-  "Towns22ea_8d3b": {
+  "Towns21ea_6d56": {
     "created": false,
     "raw": [
       {
@@ -82,11 +86,102 @@ var markersDB={
         "z": -1404,
         "text": "Village 8",
         "hovertext": "Village 8"
+      },
+      {
+        "x": -2232,
+        "y": 64,
+        "z": 593,
+        "text": "Village 9",
+        "hovertext": "Village 9"
+      },
+      {
+        "x": -1476,
+        "y": 64,
+        "z": 1324,
+        "text": "Village 10",
+        "hovertext": "Village 10"
+      },
+      {
+        "x": 198,
+        "y": 64,
+        "z": 851,
+        "text": "Village 11",
+        "hovertext": "Village 11"
+      },
+      {
+        "x": 100,
+        "y": 64,
+        "z": -683,
+        "text": "Village 12",
+        "hovertext": "Village 12"
+      },
+      {
+        "x": -1851,
+        "y": 64,
+        "z": -1805,
+        "text": "Village 13",
+        "hovertext": "Village 13"
       }
     ],
     "name": "Towns"
   },
-  "Oildd1f_8d3b": {
+  "Players310d_6d56": {
+    "created": false,
+    "raw": [
+      {
+        "x": -307.14203378828864,
+        "y": 65.0,
+        "z": -6.161501328339827,
+        "icon": "https://overviewer.org/avatar/wootnik",
+        "text": "Last known location for wootnik",
+        "hovertext": "Last known location for wootnik"
+      },
+      {
+        "x": -308.5292642740644,
+        "y": 64.0,
+        "z": -9.655338102701517,
+        "icon": "https://overviewer.org/avatar/Adrianespa",
+        "text": "Last known location for Adrianespa",
+        "hovertext": "Last known location for Adrianespa"
+      },
+      {
+        "x": -342.34418937481854,
+        "y": 66.0,
+        "z": -11.797093277253595,
+        "icon": "https://overviewer.org/avatar/MeesterJohn",
+        "text": "Last known location for MeesterJohn",
+        "hovertext": "Last known location for MeesterJohn"
+      },
+      {
+        "x": -306.2406317217055,
+        "y": 64.0,
+        "z": -7.8896529403231686,
+        "icon": "https://overviewer.org/avatar/Kadhe",
+        "text": "Last known location for Kadhe",
+        "hovertext": "Last known location for Kadhe"
+      }
+    ],
+    "name": "Players"
+  },
+  "National_Rail_Stationsde30_6d56": {
+    "created": false,
+    "raw": [
+      {
+        "x": -329,
+        "y": 64,
+        "z": 10,
+        "text": "<img src=\"https://i.imgur.com/SJHNZSK.png\" width=\"300\"><br \\>Hill Street Station is under construction.",
+        "hovertext": "Hill Street Station"
+      }
+    ],
+    "name": "National Rail Stations"
+  },
+  "Parkcefc_6d56": {
+    "created": false,
+    "raw": [],
+    "name": "Park"
+  },
+  "Oilde1f_6d56": {
     "created": false,
     "raw": [
       {
@@ -184,71 +279,147 @@ var markersDB={
         "icon": "icons/drinking-water.png",
         "text": "Possible Oil L",
         "hovertext": "Possible Oil L"
+      },
+      {
+        "x": -1275,
+        "y": 64,
+        "z": 2025,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil M",
+        "hovertext": "Possible Oil M"
+      },
+      {
+        "x": -1245,
+        "y": 64,
+        "z": 1581,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil N",
+        "hovertext": "Possible Oil N"
+      },
+      {
+        "x": -1900,
+        "y": 64,
+        "z": -1841,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil O",
+        "hovertext": "Possible Oil O"
+      },
+      {
+        "x": -1880,
+        "y": 64,
+        "z": -1895,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -535,
+        "y": 64,
+        "z": -1202,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -598,
+        "y": 64,
+        "z": -1745,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 120,
+        "y": 64,
+        "z": -1416,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 311,
+        "y": 64,
+        "z": -1560,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 572,
+        "y": 64,
+        "z": -1777,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 459,
+        "y": 64,
+        "z": -2686,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -407,
+        "y": 64,
+        "z": -824,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -371,
+        "y": 64,
+        "z": -750,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -414,
+        "y": 64,
+        "z": -730,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": -401,
+        "y": 64,
+        "z": -725,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 481,
+        "y": 64,
+        "z": -1126,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 500,
+        "y": 64,
+        "z": -1003,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
+      },
+      {
+        "x": 404,
+        "y": 64,
+        "z": -950,
+        "icon": "icons/drinking-water.png",
+        "text": "Possible Oil P",
+        "hovertext": "Possible Oil P"
       }
     ],
     "name": "Oil"
   },
-  "Points_of_Interestdd41_8d3b": {
-    "created": false,
-    "raw": [
-      {
-        "x": -873,
-        "y": 64,
-        "z": 33,
-        "icon": "icons/obelisk.png",
-        "text": "Witch Hut",
-        "hovertext": "Witch Hut"
-      },
-      {
-        "x": -1855,
-        "y": 64,
-        "z": -700,
-        "icon": "icons/obelisk.png",
-        "text": "Temple?",
-        "hovertext": "Temple?"
-      }
-    ],
-    "name": "Points of Interest"
-  },
-  "Players2e0d_8d3b": {
-    "created": false,
-    "raw": [
-      {
-        "x": -334.69303510242395,
-        "y": 64.0,
-        "z": -4.000750005526426,
-        "icon": "https://overviewer.org/avatar/wootnik",
-        "text": "Last known location for wootnik",
-        "hovertext": "Last known location for wootnik"
-      },
-      {
-        "x": -306.5557090263667,
-        "y": 64.0,
-        "z": -6.86893553173787,
-        "icon": "https://overviewer.org/avatar/Adrianespa",
-        "text": "Last known location for Adrianespa",
-        "hovertext": "Last known location for Adrianespa"
-      },
-      {
-        "x": -304.8064771533235,
-        "y": 64.0,
-        "z": -11.156880828060302,
-        "icon": "https://overviewer.org/avatar/MeesterJohn",
-        "text": "Last known location for MeesterJohn",
-        "hovertext": "Last known location for MeesterJohn"
-      },
-      {
-        "x": -414.6755327159529,
-        "y": 62.07326432466506,
-        "z": -993.0161484976593,
-        "icon": "https://overviewer.org/avatar/Kadhe",
-        "text": "Last known location for Kadhe",
-        "hovertext": "Last known location for Kadhe"
-      }
-    ],
-    "name": "Players"
-  },
-  "Industrydd0e_8d3b": {
+  "Industryde0e_6d56": {
     "created": false,
     "raw": [
       {

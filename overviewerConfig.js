@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1630119027",
+        "cacheTag": "1630380051",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,14 +42,14 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "Caerdydd",
-            "zoomLevels": 8,
+            "zoomLevels": 9,
             "defaultZoom": 1,
-            "maxZoom": 8,
+            "maxZoom": 9,
             "path": "normal",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Caerdydd - overworld",
-            "last_rendertime": 1630118980,
+            "last_rendertime": 1630379964,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
