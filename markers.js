@@ -1,49 +1,49 @@
 var markers={
   "normal": [
     {
-      "groupName": "Towns0e1f_21fa",
+      "groupName": "Towns9e1f_41c7",
       "displayName": "Towns",
       "icon": "icons/town_hall.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "Oilf1d9_21fa",
+      "groupName": "Oil61d9_41c7",
       "displayName": "Oil",
       "icon": "icons/petroleum_well.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "Industryf1ea_21fa",
+      "groupName": "Industry61ea_41c7",
       "displayName": "Industry",
       "icon": "signpost_icon.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "Points_of_Interest0e41_21fa",
+      "groupName": "Points_of_Interest9e41_41c7",
       "displayName": "Points of Interest",
       "icon": "signpost_icon.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "Players01fc_21fa",
+      "groupName": "Players90fc_41c7",
       "displayName": "Players",
       "icon": "signpost_icon.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "Park0e0e_21fa",
+      "groupName": "Park9e0e_41c7",
       "displayName": "Park",
       "icon": "icons/park.png",
       "createInfoWindow": true,
       "checked": true
     },
     {
-      "groupName": "National_Rail_Stationsf1c8_21fa",
+      "groupName": "National_Rail_Stations61c8_41c7",
       "displayName": "National Rail Stations",
       "icon": "icons/station.png",
       "createInfoWindow": true,
