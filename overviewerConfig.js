@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1630636833",
+        "cacheTag": "1633054434",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Caerdydd - overworld",
-            "last_rendertime": 1630636760,
+            "last_rendertime": 1632504061,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",

@@ -1,5 +1,60 @@
 var markersDB={
-  "Towns9e1f_41c7": {
+  "National_Rail_Stationse1c8_3f39": {
+    "created": false,
+    "raw": [
+      {
+        "x": -329,
+        "y": 64,
+        "z": 10,
+        "text": "<img src=\"https://i.imgur.com/SJHNZSK.png\" width=\"300\"><br \\>Hill Street Station is under construction.",
+        "hovertext": "Hill Street Station"
+      },
+      {
+        "x": -1279,
+        "y": 64,
+        "z": -455,
+        "text": "<img src=\"https://i.imgur.com/HQgqLRC.png\" width=\"300\"><br \\>Riyadh Station is under construction.",
+        "hovertext": "Riyadh Station"
+      }
+    ],
+    "name": "National Rail Stations"
+  },
+  "Park1e0e_3f39": {
+    "created": false,
+    "raw": [],
+    "name": "Park"
+  },
+  "Industrye1ea_3f39": {
+    "created": false,
+    "raw": [
+      {
+        "x": -310,
+        "y": 64,
+        "z": -24,
+        "icon": "icons/farm.png",
+        "text": "Farm",
+        "hovertext": "Farm"
+      },
+      {
+        "x": -335,
+        "y": 64,
+        "z": -25,
+        "icon": "icons/farm.png",
+        "text": "George Orwell's Animal Farm",
+        "hovertext": "George Orwell's Animal Farm"
+      },
+      {
+        "x": -309,
+        "y": 64,
+        "z": 10,
+        "icon": "icons/forest.png",
+        "text": "Tree Farm",
+        "hovertext": "Tree Farm"
+      }
+    ],
+    "name": "Industry"
+  },
+  "Towns1e1f_3f39": {
     "created": false,
     "raw": [
       {
@@ -103,54 +158,7 @@ var markersDB={
     ],
     "name": "Towns"
   },
-  "Park9e0e_41c7": {
-    "created": false,
-    "raw": [],
-    "name": "Park"
-  },
-  "National_Rail_Stations61c8_41c7": {
-    "created": false,
-    "raw": [
-      {
-        "x": -329,
-        "y": 64,
-        "z": 10,
-        "text": "<img src=\"https://i.imgur.com/SJHNZSK.png\" width=\"300\"><br \\>Hill Street Station is under construction.",
-        "hovertext": "Hill Street Station"
-      },
-      {
-        "x": -1279,
-        "y": 64,
-        "z": -455,
-        "text": "<img src=\"https://i.imgur.com/HQgqLRC.png\" width=\"300\"><br \\>Riyadh Station is under construction.",
-        "hovertext": "Riyadh Station"
-      }
-    ],
-    "name": "National Rail Stations"
-  },
-  "Points_of_Interest9e41_41c7": {
-    "created": false,
-    "raw": [
-      {
-        "x": -873,
-        "y": 64,
-        "z": 33,
-        "icon": "icons/obelisk.png",
-        "text": "Witch Hut",
-        "hovertext": "Witch Hut"
-      },
-      {
-        "x": -1855,
-        "y": 64,
-        "z": -700,
-        "icon": "icons/obelisk.png",
-        "text": "Temple?",
-        "hovertext": "Temple?"
-      }
-    ],
-    "name": "Points of Interest"
-  },
-  "Oil61d9_41c7": {
+  "Oile1d9_3f39": {
     "created": false,
     "raw": [
       {
@@ -412,43 +420,35 @@ var markersDB={
     ],
     "name": "Oil"
   },
-  "Industry61ea_41c7": {
+  "Points_of_Interest1e41_3f39": {
     "created": false,
     "raw": [
       {
-        "x": -310,
+        "x": -873,
         "y": 64,
-        "z": -24,
-        "icon": "icons/farm.png",
-        "text": "Farm",
-        "hovertext": "Farm"
+        "z": 33,
+        "icon": "icons/obelisk.png",
+        "text": "Witch Hut",
+        "hovertext": "Witch Hut"
       },
       {
-        "x": -335,
+        "x": -1855,
         "y": 64,
-        "z": -25,
-        "icon": "icons/farm.png",
-        "text": "George Orwell's Animal Farm",
-        "hovertext": "George Orwell's Animal Farm"
-      },
-      {
-        "x": -309,
-        "y": 64,
-        "z": 10,
-        "icon": "icons/forest.png",
-        "text": "Tree Farm",
-        "hovertext": "Tree Farm"
+        "z": -700,
+        "icon": "icons/obelisk.png",
+        "text": "Temple?",
+        "hovertext": "Temple?"
       }
     ],
-    "name": "Industry"
+    "name": "Points of Interest"
   },
-  "Players90fc_41c7": {
+  "Players0efc_3f39": {
     "created": false,
     "raw": [
       {
-        "x": -282.7281470970509,
-        "y": 66.9375,
-        "z": 60.52630058422936,
+        "x": -304.781793364322,
+        "y": 67.0,
+        "z": 108.67964899134007,
         "icon": "https://overviewer.org/avatar/wootnik",
         "text": "Last known location for wootnik",
         "hovertext": "Last known location for wootnik"
@@ -462,9 +462,9 @@ var markersDB={
         "hovertext": "Last known location for Adrianespa"
       },
       {
-        "x": -1239.909296256434,
-        "y": 66.0,
-        "z": -426.08794248863046,
+        "x": -313.00348878776424,
+        "y": 63.9375,
+        "z": -14.69767080806764,
         "icon": "https://overviewer.org/avatar/MeesterJohn",
         "text": "Last known location for MeesterJohn",
         "hovertext": "Last known location for MeesterJohn"
@@ -478,9 +478,9 @@ var markersDB={
         "hovertext": "Last known location for Ciriust"
       },
       {
-        "x": -354.21809797299176,
+        "x": -480.6934999406206,
         "y": 63.0,
-        "z": -5.741976180968855,
+        "z": 266.02195466415816,
         "icon": "https://overviewer.org/avatar/Kadhe",
         "text": "Last known location for Kadhe",
         "hovertext": "Last known location for Kadhe"
